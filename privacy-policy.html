@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Privacy Policy for Qalbia - Islamic Prayer Companion App"
+        />
+        <title>Privacy Policy | Qalbia</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            :root {
+                --primary-color: #064e3b;
+                --secondary-color: #065f46;
+                --accent-color: #10b981;
+                --text-primary: #1f2937;
+                --text-secondary: #4b5563;
+                --bg-light: #f9fafb;
+                --border-color: #e5e7eb;
+                --warning-bg: #fffbeb;
+                --warning-border: #f59e0b;
+                --info-bg: #eff6ff;
+                --info-border: #3b82f6;
+                --success-bg: #ecfdf5;
+                --success-border: #10b981;
+            }
+
+            body {
+                font-family:
+                    "Segoe UI",
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    sans-serif;
+                line-height: 1.7;
+                color: var(--text-primary);
+                background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+                min-height: 100vh;
+                padding: 0;
+            }
+
+            .header {
+                background: linear-gradient(
+                    135deg,
+                    var(--primary-color) 0%,
+                    var(--secondary-color) 100%
+                );
+                color: white;
+                padding: 60px 20px;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .header h1 {
+                font-size: 36px;
+                font-weight: 700;
+                margin-bottom: 10px;
+                letter-spacing: -0.5px;
+            }
+
+            .header .subtitle {
+                font-size: 16px;
+                opacity: 0.9;
+                font-weight: 400;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: -30px auto 60px;
+                background: white;
+                padding: 50px;
+                border-radius: 16px;
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+                position: relative;
+            }
+
+            .last-updated-badge {
+                display: inline-block;
+                background: var(--success-bg);
+                color: var(--primary-color);
+                padding: 8px 16px;
+                border-radius: 20px;
+                font-size: 13px;
+                font-weight: 600;
+                margin-bottom: 30px;
+                border: 1px solid var(--success-border);
+            }
+
+            h2 {
+                color: var(--primary-color);
+                font-size: 24px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                font-weight: 700;
+                padding-bottom: 12px;
+                border-bottom: 2px solid var(--border-color);
+            }
+
+            h3 {
+                color: var(--secondary-color);
+                font-size: 18px;
+                margin-top: 28px;
+                margin-bottom: 12px;
+                font-weight: 600;
+            }
+
+            h4 {
+                color: var(--text-secondary);
+                font-size: 16px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-weight: 600;
+            }
+
+            p {
+                margin-bottom: 16px;
+                color: var(--text-secondary);
+                text-align: left;
+            }
+
+            ul,
+            ol {
+                margin-left: 24px;
+                margin-bottom: 20px;
+            }
+
+            li {
+                margin-bottom: 10px;
+                color: var(--text-secondary);
+            }
+
+            .highlight-box {
+                background-color: var(--success-bg);
+                border-left: 4px solid var(--success-border);
+                padding: 20px;
+                margin: 24px 0;
+                border-radius: 0 8px 8px 0;
+            }
+
+            .highlight-box strong {
+                color: var(--primary-color);
+                display: block;
+                margin-bottom: 8px;
+                font-size: 15px;
+            }
+
+            .warning-box {
+                background-color: var(--warning-bg);
+                border-left: 4px solid var(--warning-border);
+                padding: 20px;
+                margin: 24px 0;
+                border-radius: 0 8px 8px 0;
+            }
+
+            .warning-box strong {
+                color: #92400e;
+                display: block;
+                margin-bottom: 8px;
+                font-size: 15px;
+            }
+
+            .info-box {
+                background-color: var(--info-bg);
+                border-left: 4px solid var(--info-border);
+                padding: 20px;
+                margin: 24px 0;
+                border-radius: 0 8px 8px 0;
+            }
+
+            .info-box strong {
+                color: #1e40af;
+                display: block;
+                margin-bottom: 8px;
+                font-size: 15px;
+            }
+
+            .section-intro {
+                background: var(--bg-light);
+                padding: 24px;
+                border-radius: 12px;
+                margin: 24px 0;
+                border: 1px solid var(--border-color);
+            }
+
+            .data-category {
+                background: white;
+                border: 1px solid var(--border-color);
+                border-radius: 12px;
+                padding: 24px;
+                margin: 20px 0;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+            }
+
+            .data-category h4 {
+                color: var(--primary-color);
+                margin-top: 0;
+                margin-bottom: 16px;
+                padding-bottom: 12px;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .permission-item {
+                background: var(--bg-light);
+                padding: 12px 16px;
+                border-radius: 8px;
+                margin: 8px 0;
+                border-left: 3px solid var(--accent-color);
+            }
+
+            .permission-item strong {
+                color: var(--primary-color);
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            .contact-section {
+                background: linear-gradient(
+                    135deg,
+                    var(--primary-color) 0%,
+                    var(--secondary-color) 100%
+                );
+                color: white;
+                padding: 40px;
+                border-radius: 16px;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .contact-section h2 {
+                color: white;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+                margin-top: 0;
+            }
+
+            .contact-section p {
+                color: rgba(255, 255, 255, 0.9);
+                margin-bottom: 8px;
+            }
+
+            .contact-section a {
+                color: #6ee7b7;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .contact-section a:hover {
+                text-decoration: underline;
+            }
+
+            .footer-meta {
+                background: var(--bg-light);
+                padding: 30px;
+                border-radius: 12px;
+                margin-top: 40px;
+                text-align: center;
+                border: 1px solid var(--border-color);
+            }
+
+            .footer-meta p {
+                margin-bottom: 8px;
+                font-size: 14px;
+            }
+
+            .footer-meta strong {
+                color: var(--primary-color);
+            }
+
+            .toc {
+                background: var(--bg-light);
+                padding: 30px;
+                border-radius: 12px;
+                margin: 30px 0;
+                border: 1px solid var(--border-color);
+            }
+
+            .toc h3 {
+                margin-top: 0;
+                color: var(--primary-color);
+            }
+
+            .toc ul {
+                list-style: none;
+                margin-left: 0;
+            }
+
+            .toc li {
+                padding: 8px 0;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .toc li:last-child {
+                border-bottom: none;
+            }
+
+            .toc a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .toc a:hover {
+                color: var(--accent-color);
+            }
+
+            a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            a:hover {
+                color: var(--accent-color);
+                text-decoration: underline;
+            }
+
+            strong {
+                color: var(--text-primary);
+                font-weight: 600;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 40px 20px;
+                }
+
+                .header h1 {
+                    font-size: 28px;
+                }
+
+                .container {
+                    margin: -20px 15px 40px;
+                    padding: 30px 25px;
+                }
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 17px;
+                }
+
+                .contact-section {
+                    padding: 30px 20px;
+                }
+            }
+
+            .agreement-section {
+                background: linear-gradient(
+                    135deg,
+                    var(--success-bg) 0%,
+                    #d1fae5 100%
+                );
+                border: 2px solid var(--success-border);
+                padding: 30px;
+                border-radius: 12px;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .agreement-section h2 {
+                margin-top: 0;
+                color: var(--primary-color);
+                border-bottom: none;
+            }
+
+            .agreement-section p {
+                color: var(--primary-color);
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Qalbia Islamic Prayer Companion App</p>
+        </header>
+
+        <div class="container">
+            <div class="last-updated-badge">
+                📅 Last Updated: February 20, 2026 | Version 1.0.10
+            </div>
+
+            <div class="section-intro">
+                <p>
+                    <strong>Qalbia</strong> ("we", "our", "us", "the App") is an
+                    Islamic prayer companion application that provides features
+                    such as prayer times, Qibla direction, Quran, dhikr, and
+                    Umrah guidance. This Privacy Policy explains how we collect,
+                    use, store, and protect your data when you use our services.
+                </p>
+                <p>
+                    By downloading, installing, or using the Qalbia application,
+                    you agree to the practices described in this policy. If you
+                    do not agree with this policy, please do not use our
+                    application.
+                </p>
+            </div>
+
+            <div class="toc">
+                <h3>📑 Table of Contents</h3>
+                <ul>
+                    <li><a href="#location">1. Location Data</a></li>
+                    <li><a href="#user-data">2. User Data We Collect</a></li>
+                    <li>
+                        <a href="#payment">3. Payment & Subscription Data</a>
+                    </li>
+                    <li><a href="#third-party">4. Third-Party Services</a></li>
+                    <li><a href="#data-usage">5. How We Use Your Data</a></li>
+                    <li>
+                        <a href="#data-sharing">6. Data Sharing & Disclosure</a>
+                    </li>
+                    <li><a href="#security">7. Data Storage & Security</a></li>
+                    <li><a href="#rights">8. Your Rights & Controls</a></li>
+                    <li><a href="#children">9. Children's Privacy</a></li>
+                    <li><a href="#changes">10. Changes to This Policy</a></li>
+                    <li><a href="#contact">11. Contact Us</a></li>
+                </ul>
+            </div>
+
+            <h2 id="location">1. Location Data</h2>
+
+            <div class="warning-box">
+                <strong>⚠️ Important Disclosure:</strong> The Qalbia application
+                accesses and collects your location data to provide core
+                application features including accurate prayer times and Qibla
+                direction.
+            </div>
+
+            <div class="data-category">
+                <h4>1.1 What Location Data We Collect</h4>
+                <ul>
+                    <li>
+                        <strong>GPS Coordinates:</strong> Latitude and longitude
+                        of your device
+                    </li>
+                    <li>
+                        <strong>Geographic Information:</strong> City and
+                        country names (obtained through reverse geocoding)
+                    </li>
+                    <li>
+                        <strong>Timestamp:</strong> Time when location data is
+                        accessed
+                    </li>
+                    <li>
+                        <strong>Accuracy Level:</strong> Measurement accuracy of
+                        the location
+                    </li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>1.2 How We Use Location Data</h4>
+                <p>
+                    We use your location data exclusively for the following
+                    purposes:
+                </p>
+                <ol>
+                    <li>
+                        <strong>Prayer Times Calculation:</strong> Calculate
+                        accurate prayer times based on your geographic location
+                        using the Aladhan API
+                    </li>
+                    <li>
+                        <strong>Qibla Direction:</strong> Determine the
+                        direction of the Kaaba from your current location
+                    </li>
+                    <li>
+                        <strong>Distance to Kaaba:</strong> Calculate the
+                        distance from your location to the Kaaba in Makkah
+                    </li>
+                    <li>
+                        <strong>Prayer Notifications:</strong> Send prayer
+                        reminder notifications based on your local timezone
+                    </li>
+                </ol>
+            </div>
+
+            <div class="data-category">
+                <h4>1.3 Location Permissions Required</h4>
+                <p>The application requests the following permissions:</p>
+
+                <div class="permission-item">
+                    <strong>ACCESS_FINE_LOCATION</strong>
+                    <span
+                        >High accuracy location for precise Qibla direction
+                        calculation</span
+                    >
+                </div>
+
+                <div class="permission-item">
+                    <strong>ACCESS_COARSE_LOCATION</strong>
+                    <span
+                        >Approximate location for general prayer times
+                        estimation</span
+                    >
+                </div>
+
+                <div class="permission-item">
+                    <strong>ACCESS_BACKGROUND_LOCATION</strong>
+                    <span
+                        >Location access when the app is running in the
+                        background for prayer schedule updates</span
+                    >
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <strong>✅ Location Data Protection:</strong>
+                <ul style="margin-top: 10px">
+                    <li>
+                        Location data is stored
+                        <strong>ONLY on your device</strong> (local
+                        storage/cache)
+                    </li>
+                    <li>
+                        Coordinates are sent to
+                        <strong>Aladhan API</strong> (aladhan.com) solely for
+                        prayer times calculation
+                    </li>
+                    <li>
+                        Aladhan API does not permanently store or track your
+                        location data
+                    </li>
+                    <li>
+                        We do <strong>NOT</strong> store location history on our
+                        servers
+                    </li>
+                    <li>
+                        Location data is <strong>NEVER</strong> sold,
+                        transferred, or shared with advertisers
+                    </li>
+                    <li>
+                        We do <strong>NOT</strong> use location data for
+                        marketing or advertising purposes
+                    </li>
+                </ul>
+            </div>
+
+            <h2 id="user-data">2. User Data We Collect</h2>
+
+            <div class="data-category">
+                <h4>2.1 Account Information</h4>
+                <p>When you register or log in, we collect:</p>
+                <ul>
+                    <li>
+                        <strong>Email Address:</strong> For authentication and
+                        important communications
+                    </li>
+                    <li>
+                        <strong>Display Name:</strong> For personalizing your
+                        app experience
+                    </li>
+                    <li>
+                        <strong>Gender:</strong> (Optional) For content
+                        preferences
+                    </li>
+                    <li>
+                        <strong>Profile Photo:</strong> (Optional) If using
+                        Google Sign-In
+                    </li>
+                    <li>
+                        <strong>Firebase UID:</strong> Unique identifier for
+                        your account
+                    </li>
+                    <li>
+                        <strong>Timestamps:</strong> Account creation and update
+                        dates
+                    </li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>2.2 User Preferences</h4>
+                <ul>
+                    <li>Application theme (light/dark/system)</li>
+                    <li>Language preference (Indonesian/English)</li>
+                    <li>Prayer calculation method</li>
+                    <li>Notification preferences</li>
+                    <li>Quran Arabic font size</li>
+                    <li>
+                        Display settings (Latin transliteration, Translation)
+                    </li>
+                    <li>Vibration and sound settings</li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>2.3 Activity Data</h4>
+                <ul>
+                    <li>
+                        <strong>Quran Bookmarks:</strong> Verses you have
+                        bookmarked
+                    </li>
+                    <li>
+                        <strong>Last Read Position:</strong> Your last reading
+                        position in the Quran
+                    </li>
+                    <li>
+                        <strong>Dhikr Progress:</strong> Tasbih and dhikr count
+                        history
+                    </li>
+                    <li>
+                        <strong>Umrah Checklist:</strong> Your progress in the
+                        Umrah guide
+                    </li>
+                    <li>
+                        <strong>Adhan Settings:</strong> Voice preferences and
+                        notification schedules
+                    </li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>2.4 Device Information</h4>
+                <ul>
+                    <li>
+                        Magnetometer sensor data (for Qibla compass
+                        functionality)
+                    </li>
+                    <li>Internet connection status</li>
+                    <li>
+                        Basic device information (model, OS version) - for
+                        debugging purposes only
+                    </li>
+                </ul>
+            </div>
+
+            <h2 id="payment">3. Payment & Subscription Data</h2>
+
+            <p>If you subscribe to premium features:</p>
+            <ul>
+                <li>
+                    <strong>Transaction ID:</strong> For payment verification
+                </li>
+                <li>
+                    <strong>Payment Method:</strong> Type of payment used
+                    (without sensitive card details)
+                </li>
+                <li>
+                    <strong>Subscription Status:</strong> Active, expired, or
+                    cancelled
+                </li>
+                <li>
+                    <strong>Subscription Dates:</strong> Start and end dates of
+                    your subscription
+                </li>
+            </ul>
+
+            <div class="info-box">
+                <strong>🔒 Payment Security Notice:</strong> We do not store
+                credit card information or sensitive payment details. All
+                payments are processed through secure, licensed third-party
+                payment gateways that comply with PCI DSS standards.
+            </div>
+
+            <h2 id="third-party">4. Third-Party Services</h2>
+
+            <p>
+                We use the following trusted third-party services to operate our
+                application:
+            </p>
+
+            <div class="data-category">
+                <h4>4.1 Firebase (Google)</h4>
+                <ul>
+                    <li>
+                        <strong>Firebase Authentication:</strong> For secure
+                        user login and account management
+                    </li>
+                    <li>
+                        <strong>Cloud Firestore:</strong> For user data storage
+                        and synchronization across devices
+                    </li>
+                    <li>
+                        <strong>Firebase Analytics:</strong> (Optional)
+                        Anonymous usage statistics to improve the app
+                    </li>
+                </ul>
+                <p>
+                    <strong>Privacy Policy:</strong>
+                    <a
+                        href="https://firebase.google.com/support/privacy"
+                        target="_blank"
+                        >Firebase Privacy Policy</a
+                    >
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>4.2 Aladhan API</h4>
+                <ul>
+                    <li>
+                        Uses your coordinates to calculate accurate prayer times
+                    </li>
+                    <li>Does not store user data permanently</li>
+                    <li>
+                        Processes location data only for prayer time
+                        calculations
+                    </li>
+                </ul>
+                <p>
+                    <strong>Privacy Policy:</strong>
+                    <a href="https://aladhan.com/privacy" target="_blank"
+                        >aladhan.com/privacy</a
+                    >
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>4.3 Google Sign-In</h4>
+                <ul>
+                    <li>For quick authentication using your Google account</li>
+                    <li>
+                        Shares only basic profile information (name, email,
+                        photo)
+                    </li>
+                </ul>
+                <p>
+                    <strong>Privacy Policy:</strong>
+                    <a
+                        href="https://policies.google.com/privacy"
+                        target="_blank"
+                        >Google Privacy Policy</a
+                    >
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>4.4 Payment Gateway</h4>
+                <ul>
+                    <li>Processes subscription payments securely</li>
+                    <li>Handles sensitive payment data directly</li>
+                    <li>Compliant with industry security standards</li>
+                </ul>
+            </div>
+
+            <h2 id="data-usage">5. How We Use Your Data</h2>
+
+            <p>We use your data for the following legitimate purposes:</p>
+
+            <ol>
+                <li>
+                    <strong>Service Provision:</strong> Delivering core app
+                    features (prayer times, Qibla direction, Quran)
+                </li>
+                <li>
+                    <strong>Personalization:</strong> Customizing your
+                    experience based on your preferences
+                </li>
+                <li>
+                    <strong>Data Synchronization:</strong> Syncing your data
+                    across all your devices
+                </li>
+                <li>
+                    <strong>Notifications:</strong> Sending prayer time
+                    reminders and Adhan notifications
+                </li>
+                <li>
+                    <strong>Service Improvement:</strong> Analyzing usage
+                    patterns to enhance features and performance
+                </li>
+                <li>
+                    <strong>Customer Support:</strong> Responding to your
+                    questions and resolving issues
+                </li>
+                <li>
+                    <strong>Security:</strong> Protecting your account and
+                    preventing fraud or abuse
+                </li>
+                <li>
+                    <strong>Legal Compliance:</strong> Meeting our legal
+                    obligations and enforcing our terms
+                </li>
+            </ol>
+
+            <h2 id="data-sharing">6. Data Sharing & Disclosure</h2>
+
+            <div class="highlight-box">
+                <strong>🛡️ Our Commitment:</strong> We do
+                <strong>NOT</strong> sell, rent, or trade your personal data.
+                Your information is shared only in the following limited
+                circumstances:
+            </div>
+
+            <h4>6.1 With Your Consent</h4>
+            <p>
+                When you explicitly authorize us to share specific information.
+            </p>
+
+            <h4>6.2 Trusted Service Providers</h4>
+            <p>
+                Only with third-party services necessary for app operation, as
+                detailed in Section 4. These providers are bound by strict
+                confidentiality agreements and data protection obligations.
+            </p>
+
+            <h4>6.3 Legal Requirements</h4>
+            <p>
+                If required by law, court order, or to protect our rights,
+                property, or safety, or that of our users or the public.
+            </p>
+
+            <h4>6.4 Business Transfers</h4>
+            <p>
+                In connection with a merger, acquisition, or sale of assets,
+                with notice to users and continued protection of your data.
+            </p>
+
+            <h2 id="security">7. Data Storage & Security</h2>
+
+            <div class="data-category">
+                <h4>7.1 Data Storage Locations</h4>
+                <ul>
+                    <li>
+                        <strong>Local Storage:</strong> Data is stored on your
+                        device using AsyncStorage for quick access
+                    </li>
+                    <li>
+                        <strong>Cloud Storage:</strong> Account data and
+                        preferences are stored in Firebase Firestore
+                    </li>
+                    <li>
+                        <strong>Server Location:</strong> Firebase data is
+                        stored on Google Cloud servers in accordance with their
+                        policies
+                    </li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>7.2 Security Measures</h4>
+                <p>
+                    We implement industry-standard security measures to protect
+                    your data:
+                </p>
+                <ul>
+                    <li>
+                        End-to-end encryption for data in transit (HTTPS/TLS
+                        1.3)
+                    </li>
+                    <li>
+                        Encryption at rest for data stored in Firebase Firestore
+                    </li>
+                    <li>
+                        Secure Firebase Authentication with multiple
+                        verification methods
+                    </li>
+                    <li>
+                        Brute force protection and rate limiting on API
+                        endpoints
+                    </li>
+                    <li>
+                        Regular security audits and vulnerability assessments
+                    </li>
+                    <li>Strict access controls for our development team</li>
+                </ul>
+            </div>
+
+            <div class="data-category">
+                <h4>7.3 Data Retention</h4>
+                <ul>
+                    <li>
+                        Data is retained as long as your account remains active
+                    </li>
+                    <li>
+                        You may request account and data deletion at any time
+                    </li>
+                    <li>
+                        Local cache data can be removed by uninstalling the
+                        application
+                    </li>
+                    <li>
+                        Deleted data is permanently removed from our servers
+                        within 30 days
+                    </li>
+                </ul>
+            </div>
+
+            <h2 id="rights">8. Your Rights & Controls</h2>
+
+            <p>You have the following rights regarding your personal data:</p>
+
+            <div class="data-category">
+                <h4>8.1 Right to Access</h4>
+                <p>
+                    You can view and access your data through the application at
+                    any time. You may also request a copy of all data we hold
+                    about you.
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>8.2 Right to Rectification</h4>
+                <p>
+                    You can update your profile information and preferences at
+                    any time through the app settings.
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>8.3 Right to Erasure (Right to be Forgotten)</h4>
+                <p>
+                    You may request complete deletion of your account and all
+                    associated data by contacting us. We will process your
+                    request within 30 days.
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>8.4 Right to Restrict Processing</h4>
+                <p>
+                    You can disable specific features such as location services
+                    and notifications through your device settings or app
+                    preferences.
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>8.5 Right to Data Portability</h4>
+                <p>
+                    You may request export of your data in a machine-readable
+                    format for transfer to another service.
+                </p>
+            </div>
+
+            <div class="data-category">
+                <h4>8.6 Right to Object</h4>
+                <p>
+                    You may object to certain data processing activities, such
+                    as optional analytics.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <strong>📱 In-App Privacy Controls:</strong>
+                <ul style="margin-top: 10px">
+                    <li>
+                        <strong>Location Permission:</strong> Can be
+                        enabled/disabled in device settings
+                    </li>
+                    <li>
+                        <strong>Notification Permission:</strong> Can be managed
+                        in device settings
+                    </li>
+                    <li>
+                        <strong>Preferences:</strong> Can be changed in the app
+                        Settings menu
+                    </li>
+                    <li>
+                        <strong>Guest Mode:</strong> Use the app without an
+                        account (data won't be synchronized)
+                    </li>
+                </ul>
+            </div>
+
+            <h2 id="children">9. Children's Privacy</h2>
+
+            <p>
+                The Qalbia application is not intended for children under the
+                age of 13. We do not knowingly collect personal information from
+                children under 13. If you believe we have inadvertently
+                collected data from a child under 13, please contact us
+                immediately at the email provided below, and we will promptly
+                delete such information.
+            </p>
+
+            <p>
+                Parents and guardians who believe their child has provided us
+                with personal information may contact us to request deletion.
+            </p>
+
+            <h2 id="changes">10. Changes to This Policy</h2>
+
+            <p>
+                We may update this Privacy Policy from time to time to reflect
+                changes in our practices, legal requirements, or app features.
+                When we make significant changes, we will:
+            </p>
+
+            <ul>
+                <li>Notify you through the application</li>
+                <li>Send an email notification to registered users</li>
+                <li>
+                    Update the "Last Updated" date at the top of this policy
+                </li>
+            </ul>
+
+            <p>
+                Your continued use of the application after changes are posted
+                constitutes your acceptance of the updated policy. We encourage
+                you to review this policy periodically.
+            </p>
+
+            <div class="contact-section" id="contact">
+                <h2>11. Contact Us</h2>
+                <p style="font-size: 16px; margin-bottom: 20px">
+                    If you have any questions, concerns, or requests regarding
+                    this Privacy Policy or your data, please contact us:
+                </p>
+                <p><strong>Developer:</strong> Jambi Code Labs</p>
+            </div>
+
+            <div class="agreement-section">
+                <h2>Your Agreement</h2>
+                <p>
+                    By using the Qalbia application, you acknowledge that you
+                    have read, understood, and agree to this Privacy Policy. If
+                    you do not agree, please discontinue use of the application
+                    immediately.
+                </p>
+                <p style="margin-top: 15px; font-size: 14px">
+                    <em
+                        >Thank you for trusting Qalbia with your personal
+                        information.</em
+                    >
+                </p>
+            </div>
+
+            <div class="footer-meta">
+                <p><strong>Last Updated:</strong> February 20, 2026</p>
+                <p><strong>Version:</strong> 1.0.10</p>
+                <p><strong>Developer:</strong> Jambi Code Labs</p>
+                <p><strong>Package Name:</strong> com.ajwatour.qalbia</p>
+                <p><strong>Application:</strong> Qalbia</p>
+                <p style="margin-top: 15px; color: #9ca3af; font-size: 12px">
+                    This Privacy Policy is compliant with Google Play Store User
+                    Data Policy and applicable data protection regulations.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
